@@ -1,14 +1,14 @@
-var character = 'mario';
-var age = 30;
-var isBlackBelt = false;
-// character = 20;
-character = 'luigi';
-// age = 'yoshi';
-age = 40;
-// isBlackBelt = 'yes';
-isBlackBelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
-};
-//console.log(circ('hello'));
-console.log(circ(7.5));
+// arrays
+var names = ['luigi', 'mario', 'yoshi'];
+names.push('toad');
+// names.push(3);
+// names[0] = 3;
+var numbers = [10, 20, 30, 40];
+numbers.push(25);
+// numbers.push('shaun');
+// numbers[1] = 'shaun';
+var mixed = ['ken', 4, 'chun-li', 8, 9];
+mixed.push('ryu');
+mixed.push(10);
+mixed[0] = 3;
+// objects
