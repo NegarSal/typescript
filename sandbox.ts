@@ -17,7 +17,18 @@ ninjas = ['yoshi', 'mario'];
 ninjas.push('shaun');
 
 // union types
+let mixed: (string | number | boolean)[] = [];
 
+mixed.push('hello');
+mixed.push(20);
+mixed.push(false);
+console.log(mixed);
+
+let uid: string | number;
+
+uid = '123';
+uid = 123;
+// uid = false;
 
 //objects
 
