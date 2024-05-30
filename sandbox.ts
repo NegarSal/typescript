@@ -31,4 +31,15 @@ uid = 123;
 // uid = false;
 
 //objects
+let ninjaOne: object;
 
+ninjaOne = { name: 'yoshi', age: 30 };
+// ninjaOne = 'hello';
+ninjaOne = [];
+
+let ninjaTwo: {
+    name: string,
+    age: number,
+    beltColor: string
+};
+ninjaTwo = { name: 'ken', age: 20, beltColor: 'black' };
